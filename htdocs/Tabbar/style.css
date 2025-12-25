@@ -1,0 +1,71 @@
+ /*Css syntax*/
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Mitr', sans-serif;
+}
+
+ /*change tab bar*/
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: rgb(33, 33, 33);
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+    align-items: center;
+    z-index: 99;
+}
+
+ /*change  logo*/
+ .logo {
+    display: flex;
+    align-items: center;
+}
+/*logo set size*/
+.logo-img {
+    width: 100px;
+    height: auto;
+}
+
+/*button menu home,about.services,contech*/
+.navigation a {
+    position: relative;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 0px;
+    margin-right: 40px;
+    transition: .5s;
+}   
+/*after change color text*/
+.navigation a:hover {
+    color: rgb(59, 99, 176);
+}
+/*button login*/
+.navigation .btnlogin-popup {
+    width: 130px;
+    height: 50px;
+    background: transparent;
+    border:  2px solid #fff;
+    outline: none;    
+    align-items: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: #fff;
+    font-weight: 500;
+    margin-left: auto;
+    transition: .5s;
+}
+/*after change be color after mouse point*/
+.navigation .btnlogin-popup:hover {
+    background: #fff;
+    color: rgb(59, 99, 176)
+}
