@@ -1,0 +1,21 @@
+xampp\mysql\data\
+
+to save can get on  same thing it do same like open folder 
+about java 
+it sound you must remove  1 go 2 like
+warrper if active 
+must remove active but it will stuck other recomend most is 
+add remove togeter Like 
+iconClose.addEventListener('click', () => {
+    wrapper.classList.remove('active');
+});
+iconClose.addEventListener('click', () => {
+    wrapper.classList.remove('active-popup');
+});
+ for remove 2 time and for no want use active just remove use only this one 
+iconClose.addEventListener('click', () => {
+    wrapper.classList.remove('active');
+but if want  remove only remove active poop same thing but rename be active-popup 
+for remove both 
+just copy and past agina and tell java remove 2 time after have action click
+that all
